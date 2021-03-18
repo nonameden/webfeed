@@ -1,6 +1,6 @@
 import 'package:intl/intl.dart';
 
-const rfc822DatePattern = 'EEE, dd MMM yyyy HH:mm:ss zzz';
+const rfc822DatePattern = 'EEE, dd MMM yyyy HH:mm:ss Z';
 
 DateTime? parseDateTime(dateString) {
   if (dateString == null) return null;
